@@ -1,4 +1,5 @@
 showGps = 1;
+enableItemsDropping = 0;
 
 loadScreen = "pics\loading.jpg";
 OnLoadMission  = "War In Lingor";
