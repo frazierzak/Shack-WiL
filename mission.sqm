@@ -820,6 +820,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HeliH";
 			skill=0.60000002;
+			init="null = [this, 50] execVM ""f2f_modules\f2f_alss\f2f_alss_init.sqf""; this allowDamage false;";
 		};
 		class Item7
 		{
@@ -1140,6 +1141,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HeliH";
 			skill=0.60000002;
+			init="null = [this, 50] execVM ""f2f_modules\f2f_alss\f2f_alss_init.sqf""; this allowDamage false;";
 		};
 		class Item38
 		{
@@ -1149,6 +1151,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HeliH";
 			skill=0.60000002;
+			init="null = [this, 50] execVM ""f2f_modules\f2f_alss\f2f_alss_init.sqf""; this allowDamage false;";
 		};
 		class Item39
 		{
