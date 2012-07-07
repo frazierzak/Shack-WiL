@@ -74,8 +74,7 @@ R3F_LOG_CFG_heliporteurs =
  */
 R3F_LOG_CFG_objets_heliportables =
 [
-	"Armored",
-	"Car"
+	"LandVehicle"
 ];
 
 
