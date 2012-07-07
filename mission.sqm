@@ -19,7 +19,8 @@ class Mission
 		"CAWheeled_W_BAF",
 		"CATracked_W_BAF",
 		"CAWheeled2_MTVR",
-		"bink_usmc"
+		"bink_usmc",
+		"CAWater"
 	};
 	addOnsAuto[]=
 	{
@@ -36,6 +37,7 @@ class Mission
 		"CAAir_E_UH60M",
 		"CAWheeled_W_BAF",
 		"CAWheeled2_MTVR",
+		"CAWater",
 		"ibr_lingor"
 	};
 	randomSeed=13468083;
@@ -746,7 +748,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=41;
+		items=47;
 		class Item0
 		{
 			position[]={8312.0557,4.0640292,7498.5122};
@@ -1177,6 +1179,60 @@ class Mission
 			side="EMPTY";
 			vehicle="TowingTractor";
 			leader=1;
+			skill=0.60000002;
+		};
+		class Item41
+		{
+			position[]={8312.1006,0.79303408,7640.873};
+			azimut=26.859438;
+			id=86;
+			side="EMPTY";
+			vehicle="Zodiac";
+			skill=0.60000002;
+		};
+		class Item42
+		{
+			position[]={8319.3389,0.71056294,7637.5073};
+			azimut=18.44488;
+			id=87;
+			side="EMPTY";
+			vehicle="Zodiac";
+			skill=0.60000002;
+		};
+		class Item43
+		{
+			position[]={8328.3906,0.53656638,7635.6431};
+			azimut=11.244631;
+			id=88;
+			side="EMPTY";
+			vehicle="Zodiac";
+			skill=0.60000002;
+		};
+		class Item44
+		{
+			position[]={8352.6973,0.56537199,7630.1006};
+			azimut=14.0642;
+			id=89;
+			side="EMPTY";
+			vehicle="RHIB";
+			skill=0.60000002;
+		};
+		class Item45
+		{
+			position[]={8360.415,0.73205161,7629.6846};
+			azimut=5.6496601;
+			id=90;
+			side="EMPTY";
+			vehicle="RHIB";
+			skill=0.60000002;
+		};
+		class Item46
+		{
+			position[]={8367.9316,0.74896109,7629.6924};
+			azimut=-1.55059;
+			id=91;
+			side="EMPTY";
+			vehicle="RHIB";
 			skill=0.60000002;
 		};
 	};
