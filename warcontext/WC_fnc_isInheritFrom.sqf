@@ -1,3 +1,5 @@
+// code snippet from Denisko-Redisko found at https://dev-heaven.net/issues/13018#note-2
+
 	private [
 		"_curr",
 		"_parent",
