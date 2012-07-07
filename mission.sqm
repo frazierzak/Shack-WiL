@@ -18,11 +18,13 @@ class Mission
 		"CAAir_E_UH60M",
 		"CAWheeled_W_BAF",
 		"CATracked_W_BAF",
-		"CAWheeled2_MTVR"
+		"CAWheeled2_MTVR",
+		"bink_usmc"
 	};
 	addOnsAuto[]=
 	{
 		"ca_modules_functions",
+		"bink_usmc",
 		"cacharacters_e",
 		"camisc3",
 		"caweapons_e_ammoboxes",
@@ -100,7 +102,7 @@ class Mission
 					azimut=103.936;
 					id=10;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -120,7 +122,7 @@ class Mission
 					azimut=-367.577;
 					id=11;
 					side="WEST";
-					vehicle="US_Soldier_Officer_EP1";
+					vehicle="bink_usmc_off";
 					leader=1;
 					rank="CAPTAIN";
 					skill=0.60000002;
@@ -168,7 +170,7 @@ class Mission
 					special="CARGO";
 					id=18;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -181,7 +183,7 @@ class Mission
 					special="CARGO";
 					id=19;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -193,7 +195,7 @@ class Mission
 					special="CARGO";
 					id=20;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -206,7 +208,7 @@ class Mission
 					special="CARGO";
 					id=21;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -218,7 +220,7 @@ class Mission
 					special="CARGO";
 					id=22;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -238,7 +240,7 @@ class Mission
 					special="CARGO";
 					id=23;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -251,7 +253,7 @@ class Mission
 					special="CARGO";
 					id=24;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -263,7 +265,7 @@ class Mission
 					special="CARGO";
 					id=25;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -276,7 +278,7 @@ class Mission
 					special="CARGO";
 					id=26;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -288,7 +290,7 @@ class Mission
 					special="CARGO";
 					id=27;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -308,7 +310,7 @@ class Mission
 					special="CARGO";
 					id=28;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -321,7 +323,7 @@ class Mission
 					special="CARGO";
 					id=29;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -333,7 +335,7 @@ class Mission
 					special="CARGO";
 					id=30;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -346,7 +348,7 @@ class Mission
 					special="CARGO";
 					id=31;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -354,14 +356,15 @@ class Mission
 				class Item4
 				{
 					position[]={8317.7998,4.0672688,7501.543};
-					azimut=-453.33853;
+					azimut=-453.33899;
 					special="CARGO";
 					id=32;
 					side="WEST";
-					vehicle="US_Delta_Force_Marksman_EP1";
+					vehicle="bink_usmc_dmr";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
+					description="Sniper";
 				};
 			};
 		};
@@ -378,7 +381,7 @@ class Mission
 					special="CARGO";
 					id=33;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -391,7 +394,7 @@ class Mission
 					special="CARGO";
 					id=34;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -403,7 +406,7 @@ class Mission
 					special="CARGO";
 					id=35;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -416,7 +419,7 @@ class Mission
 					special="CARGO";
 					id=36;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -424,14 +427,15 @@ class Mission
 				class Item4
 				{
 					position[]={8319.7939,4.0683942,7501.5239};
-					azimut=-453.33853;
+					azimut=-453.33899;
 					special="CARGO";
 					id=37;
 					side="WEST";
-					vehicle="US_Delta_Force_Marksman_EP1";
+					vehicle="bink_usmc_dmr";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
+					description="Sniper";
 				};
 			};
 		};
@@ -448,7 +452,7 @@ class Mission
 					special="CARGO";
 					id=38;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -461,19 +465,19 @@ class Mission
 					special="CARGO";
 					id=39;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
 				};
 				class Item2
 				{
-					position[]={8316.6729,4.0666337,7497.165};
+					position[]={8316.7021,4.0666499,7497.2793};
 					azimut=-442.59399;
 					special="CARGO";
 					id=40;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -486,7 +490,7 @@ class Mission
 					special="CARGO";
 					id=41;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -498,7 +502,7 @@ class Mission
 					special="CARGO";
 					id=42;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -518,32 +522,34 @@ class Mission
 					special="CARGO";
 					id=43;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
+					description="Fireteam Leader";
 				};
 				class Item1
 				{
 					position[]={8318.251,4.067524,7493.6123};
-					azimut=-441.59045;
+					azimut=-441.59;
 					special="CARGO";
 					id=44;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
+					description="Corpsman";
 				};
 				class Item2
 				{
 					position[]={8318.4971,4.0676627,7494.6709};
-					azimut=-442.59351;
+					azimut=-442.59399;
 					special="CARGO";
 					id=45;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
@@ -552,26 +558,28 @@ class Mission
 				class Item3
 				{
 					position[]={8319.0908,4.0679975,7494.7363};
-					azimut=-447.25949;
+					azimut=-447.259;
 					special="CARGO";
 					id=46;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
+					description="Rifelman";
 				};
 				class Item4
 				{
 					position[]={8318.9551,4.0679207,7494.2134};
-					azimut=-453.33853;
+					azimut=-453.33899;
 					special="CARGO";
 					id=47;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
+					description="Rifleman";
 				};
 			};
 		};
@@ -588,7 +596,7 @@ class Mission
 					special="CARGO";
 					id=48;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -601,7 +609,7 @@ class Mission
 					special="CARGO";
 					id=49;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -613,7 +621,7 @@ class Mission
 					special="CARGO";
 					id=50;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -626,7 +634,7 @@ class Mission
 					special="CARGO";
 					id=51;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -638,7 +646,7 @@ class Mission
 					special="CARGO";
 					id=52;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -678,7 +686,7 @@ class Mission
 					special="CARGO";
 					id=56;
 					side="WEST";
-					vehicle="US_Delta_Force_TL_EP1";
+					vehicle="bink_usmc_tl";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -691,7 +699,7 @@ class Mission
 					special="CARGO";
 					id=57;
 					side="WEST";
-					vehicle="US_Delta_Force_Medic_EP1";
+					vehicle="bink_usmc_corpsman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
@@ -703,7 +711,7 @@ class Mission
 					special="CARGO";
 					id=58;
 					side="WEST";
-					vehicle="US_Delta_Force_Air_Controller_EP1";
+					vehicle="bink_usmc_scout_l";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
@@ -716,7 +724,7 @@ class Mission
 					special="CARGO";
 					id=59;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
@@ -728,7 +736,7 @@ class Mission
 					special="CARGO";
 					id=60;
 					side="WEST";
-					vehicle="US_Delta_Force_Assault_EP1";
+					vehicle="bink_usmc_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
