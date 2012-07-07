@@ -511,5 +511,5 @@
 		wcalert = 0;
 		["wcalert", "client"] call WC_fnc_publicvariable;
 		diag_log "WARCONTEXT: SANITING: MISSION IS FINISHED";
-		sleep 60 + (random 120);
+		sleep 5 + (random 1);
 	};

@@ -626,7 +626,7 @@ class Params
 		title = "DYNAMIC TIME";
 		values[] = {0,1,2};
 		texts[] = {"NO FAST FORWARD", "FAST FORWARD", "INSTANT FAST FORWARD"};
-		default = 1;
+		default = 2;
 	};
 
 	class wcwithweather
@@ -650,7 +650,7 @@ class Params
 		title = "ENEMIES FORCE ON ZONE";
 		values[] = {1, 2, 3, 4, 5};
 		texts[] = {"WEAK", "NORMAL", "STRONG", "VERY STRONG", "AWESOME"};
-		default = 4;
+		default = 5;
 	};
 
 	class wclevelmaxoutofcity
@@ -658,7 +658,7 @@ class Params
 		title = "ENEMIES FORCE AROUND ZONE";
 		values[] = {1, 2, 4, 8, 10};
 		texts[] = {"WEAK", "NORMAL", "STRONG", "VERY STRONG", "AWESOME"};
-		default = 8;
+		default = 10;
 	};
 
 	class wcairopposingforce
@@ -707,7 +707,7 @@ class Params
 		title = "MAX VIEW DISTANCE";
 		values[]={2500,3000,3500,4000,5000,7500,10000};
 		texts[]={"2500","3000","3500","4000","5000","7500","10000"};
-		default=5000;
+		default=10000;
 	};
 
 	class wcwithcam
@@ -731,7 +731,7 @@ class Params
 		title = "PLAYERS MUST BE RANKED TO RECRUIT SOME IA";
 		values[] = {0,1};
 		texts[] = {"NO", "YES"};
-		default = 1;
+		default = 0;
 	};
 
 	class wcwithhalojump

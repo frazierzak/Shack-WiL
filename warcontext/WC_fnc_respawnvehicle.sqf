@@ -74,7 +74,8 @@
 			_move = _move + 1;
 			_disabled = (if (damage _vehicle > 0.9) then {true} else {false});
 			if (_disabled || !(alive _vehicle) || ((_move > 1800) and (getpos _vehicle distance _startpos > 10))) then {
-				sleep wctimetogarbagedeadbody;
+				//sleep wctimetogarbagedeadbody;
+				sleep 30;	// respawn timer. also: _move is idle time in seconds
 				_vehicle setpos [0,0,0];
 				_vehicle setdamage 1;
 				_objets_charges = _vehicle getVariable "R3F_LOG_objets_charges";
