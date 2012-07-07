@@ -74,5 +74,5 @@
 			_marker setMarkerColor "ColorBlue";			
 			wcsecurezone = wcsecurezone + [position _unit];
 		};
-		sleep 4;
+		sleep 1;
 	};

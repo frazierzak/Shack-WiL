@@ -48,7 +48,7 @@
 		};
 	};
 
-	sleep 60;
+	sleep 1;
 
 	deletevehicle _unit;
 	

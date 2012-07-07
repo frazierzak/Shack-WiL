@@ -106,7 +106,7 @@
         	sleep 1;
 	};
 
-	sleep 120;
+	sleep 1;
 
 	_unit setdamage 1;
 	_vehicle setdamage 1;

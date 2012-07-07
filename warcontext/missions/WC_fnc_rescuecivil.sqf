@@ -81,5 +81,5 @@
 			"SmokeShellRed" createVehicle position _unit;
 			_counter = 0;
 		};
-		sleep 5;
+		sleep 1;
 	};

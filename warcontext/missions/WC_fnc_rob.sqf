@@ -73,7 +73,7 @@
 		};
 	};
 
-	sleep 120;
+	sleep 1;
 
 	_vehicle setdamage 1;
 	_vehicle2 setdamage 1;
