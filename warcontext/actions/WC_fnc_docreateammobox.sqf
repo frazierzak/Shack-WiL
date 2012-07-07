@@ -3,7 +3,7 @@
 	// warcontext -  Create an ammobox near player position
 	// -----------------------------------------------
 
-	_crate = nearestObjects[player,["TKVehicleBox_EP1"], 80];
+	_crate = nearestObjects[player,["USVehicleBox_EP1"], 80];
 
 	if(count _crate > 0) exitwith {};
 
