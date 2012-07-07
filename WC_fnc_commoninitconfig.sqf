@@ -129,6 +129,9 @@
 	
 	// Position of map center
 	wcmapcenter = [((wcmaptopright select 0) / 2), ((wcmaptopright select 0) / 2)];
+	
+	// safe Position where ai, or body can be teleport for wc purpose
+	wcinitpos = getmarkerpos "initpos";
 
 	// Rain max rate of the country - 0  (low) 1 (full)
 	wcrainrate = 0.65;
@@ -208,6 +211,9 @@
 
 	// Goal cam turn around goal
 	wccamgoalanimate = false;
+	
+	// Ied false positive are...
+	wciedfalsepositive = true;
 
 	// contain all nuclear zone
 	wcnuclearzone = [];
