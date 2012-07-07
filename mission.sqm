@@ -101,7 +101,7 @@ class Mission
 					azimut=103.936;
 					id=10;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -121,7 +121,7 @@ class Mission
 					azimut=-367.577;
 					id=11;
 					side="WEST";
-					vehicle="BAF_Soldier_Officer_MTP";
+					vehicle="US_Soldier_Officer_EP1";
 					leader=1;
 					rank="CAPTAIN";
 					skill=0.60000002;
@@ -169,7 +169,7 @@ class Mission
 					special="CARGO";
 					id=18;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -182,7 +182,7 @@ class Mission
 					special="CARGO";
 					id=19;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -194,7 +194,7 @@ class Mission
 					special="CARGO";
 					id=20;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -207,7 +207,7 @@ class Mission
 					special="CARGO";
 					id=21;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -219,7 +219,7 @@ class Mission
 					special="CARGO";
 					id=22;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -239,7 +239,7 @@ class Mission
 					special="CARGO";
 					id=23;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -252,7 +252,7 @@ class Mission
 					special="CARGO";
 					id=24;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -264,7 +264,7 @@ class Mission
 					special="CARGO";
 					id=25;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -277,7 +277,7 @@ class Mission
 					special="CARGO";
 					id=26;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -289,7 +289,7 @@ class Mission
 					special="CARGO";
 					id=27;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -309,7 +309,7 @@ class Mission
 					special="CARGO";
 					id=28;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -322,7 +322,7 @@ class Mission
 					special="CARGO";
 					id=29;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -334,7 +334,7 @@ class Mission
 					special="CARGO";
 					id=30;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -347,7 +347,7 @@ class Mission
 					special="CARGO";
 					id=31;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -359,7 +359,7 @@ class Mission
 					special="CARGO";
 					id=32;
 					side="WEST";
-					vehicle="BAF_Soldier_Sniper_MTP";
+					vehicle="US_Delta_Force_Marksman_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -379,7 +379,7 @@ class Mission
 					special="CARGO";
 					id=33;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -392,7 +392,7 @@ class Mission
 					special="CARGO";
 					id=34;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -404,7 +404,7 @@ class Mission
 					special="CARGO";
 					id=35;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -417,7 +417,7 @@ class Mission
 					special="CARGO";
 					id=36;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -429,7 +429,7 @@ class Mission
 					special="CARGO";
 					id=37;
 					side="WEST";
-					vehicle="BAF_Soldier_Sniper_MTP";
+					vehicle="US_Delta_Force_Marksman_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -449,7 +449,7 @@ class Mission
 					special="CARGO";
 					id=38;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -462,7 +462,7 @@ class Mission
 					special="CARGO";
 					id=39;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -474,7 +474,7 @@ class Mission
 					special="CARGO";
 					id=40;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -487,7 +487,7 @@ class Mission
 					special="CARGO";
 					id=41;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -499,7 +499,7 @@ class Mission
 					special="CARGO";
 					id=42;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -519,7 +519,7 @@ class Mission
 					special="CARGO";
 					id=43;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
@@ -532,7 +532,7 @@ class Mission
 					special="CARGO";
 					id=44;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
@@ -544,7 +544,7 @@ class Mission
 					special="CARGO";
 					id=45;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
@@ -557,7 +557,7 @@ class Mission
 					special="CARGO";
 					id=46;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
@@ -569,7 +569,7 @@ class Mission
 					special="CARGO";
 					id=47;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
@@ -589,7 +589,7 @@ class Mission
 					special="CARGO";
 					id=48;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -602,7 +602,7 @@ class Mission
 					special="CARGO";
 					id=49;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -614,7 +614,7 @@ class Mission
 					special="CARGO";
 					id=50;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -627,7 +627,7 @@ class Mission
 					special="CARGO";
 					id=51;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -639,7 +639,7 @@ class Mission
 					special="CARGO";
 					id=52;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -679,7 +679,7 @@ class Mission
 					special="CARGO";
 					id=56;
 					side="WEST";
-					vehicle="BAF_Soldier_TL_MTP";
+					vehicle="US_Delta_Force_TL_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -692,7 +692,7 @@ class Mission
 					special="CARGO";
 					id=57;
 					side="WEST";
-					vehicle="BAF_Soldier_Medic_MTP";
+					vehicle="US_Delta_Force_Medic_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
@@ -704,7 +704,7 @@ class Mission
 					special="CARGO";
 					id=58;
 					side="WEST";
-					vehicle="BAF_Soldier_EN_MTP";
+					vehicle="US_Delta_Force_Air_Controller_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
@@ -717,7 +717,7 @@ class Mission
 					special="CARGO";
 					id=59;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
@@ -729,7 +729,7 @@ class Mission
 					special="CARGO";
 					id=60;
 					side="WEST";
-					vehicle="BAF_ASoldier_MTP";
+					vehicle="US_Delta_Force_Assault_EP1";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
