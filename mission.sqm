@@ -832,7 +832,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="preset";
-			init="this allowDamage false; this addAction [""<t color='#FFFFFF'>Get Equipment Preset</t>"",""extern\bon_loadoutpresets\bon_loadout_presets.sqf""];";
+			init="this allowDamage false; this addAction [""<t color='#FFFFFF'>Get Equipment Preset</t>"",""extern\bon_loadoutpresets\bon_loadout_presets.sqf""]; handle = this execVM ""scripts\bagHeap.sqf"";";
 		};
 		class Item8
 		{
