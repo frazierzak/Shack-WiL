@@ -44,12 +44,12 @@ class Mission
 	class Intel
 	{
 		briefingName="Shack War in Lingor";
-		startWeather=0.050000012;
-		forecastWeather=0.050000012;
-		year=2011;
-		month=1;
-		day=6;
-		hour=13;
+		startWeather=0.0099999905;
+		forecastWeather=0;
+		year=2008;
+		month=3;
+		day=11;
+		hour=8;
 		minute=0;
 	};
 	class Groups

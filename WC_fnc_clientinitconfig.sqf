@@ -107,4 +107,7 @@
 		wclistofaddonweapons = [];
 	};
 
+	// have we died at least once?
+	wcdiedoncebefore = false;
+
 	true;
