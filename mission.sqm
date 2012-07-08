@@ -197,7 +197,7 @@ class Mission
 					special="CARGO";
 					id=20;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Foxtrot""];";
@@ -267,7 +267,7 @@ class Mission
 					special="CARGO";
 					id=25;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Echo""];";
@@ -337,7 +337,7 @@ class Mission
 					special="CARGO";
 					id=30;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Hotel""];";
@@ -408,7 +408,7 @@ class Mission
 					special="CARGO";
 					id=35;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Golf""];";
@@ -479,7 +479,7 @@ class Mission
 					special="CARGO";
 					id=40;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Bravo""];";
@@ -551,7 +551,7 @@ class Mission
 					special="CARGO";
 					id=45;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Alpha""];";
@@ -623,7 +623,7 @@ class Mission
 					special="CARGO";
 					id=50;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Charly""];";
@@ -713,7 +713,7 @@ class Mission
 					special="CARGO";
 					id=58;
 					side="WEST";
-					vehicle="bink_usmc_scout_l";
+					vehicle="bink_usmc_eng";
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="this setGroupid [""Juliet""];";
