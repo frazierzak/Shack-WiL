@@ -108,7 +108,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					init="dostop this; removeAllWeapons this; this allowdammage false; this doWatch getmarkerpos ""respawn_west""; this addAction [""<t color='#dddd00'>Recruit</t>"", ""warcontext\dialogs\WC_fnc_createmenurecruitment.sqf"",[],6,false]; this allowDamage false;";
+					init="dostop this; removeAllWeapons this; this allowDamage false; this doWatch getmarkerpos ""respawn_west""; this addAction [""<t color='#dddd00'>Recruit</t>"", ""warcontext\dialogs\WC_fnc_createmenurecruitment.sqf"",[],6,false];";
 				};
 			};
 		};
@@ -129,7 +129,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="anim";
-					init="this setpos [(getpos this) select 0, (getpos this) select 1, 2.85];";
+					init="this allowDamage false; this setpos [(getpos this) select 0, (getpos this) select 1, 2.85];";
 				};
 			};
 			class Waypoints
@@ -671,7 +671,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="imam";
-					init="this setvariable [""wcprotected"", true]; this allowdammage false; this setposatl [getPos this select 0, getpos this select 1, 0.3]; removeAllWeapons this;";
+					init="this setvariable [""wcprotected"", true]; this allowDamage false; this setposatl [getPos this select 0, getpos this select 1, 0.3]; removeAllWeapons this;";
 				};
 			};
 		};
@@ -819,7 +819,7 @@ class Mission
 			vehicle="Land_Barrack2_EP1";
 			skill=0.60000002;
 			text="clothes";
-			init="this addAction [""<t color='#dddd00'>Change clothes</t>"", ""warcontext\dialogs\WC_fnc_createmenuchangeclothes.sqf"",[],6,false];this allowDamage false;";
+			init="this allowDamage false; this addAction [""<t color='#dddd00'>Change clothes</t>"", ""warcontext\dialogs\WC_fnc_createmenuchangeclothes.sqf"",[],6,false];";
 		};
 		class Item6
 		{
@@ -908,7 +908,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="board";
-			init="this setpos [(getpos this) select 0, (getpos this) select 1, 2.6]; this allowdammage false; this addAction [""<t color='#dddd00'>""+localize ""STR_WC_MENUSPECTATOR""+""</t>"", ""extern\spect\specta.sqf"",[],-1,false];";
+			init="this setpos [(getpos this) select 0, (getpos this) select 1, 2.6]; this allowDamage false; this addAction [""<t color='#dddd00'>""+localize ""STR_WC_MENUSPECTATOR""+""</t>"", ""extern\spect\specta.sqf"",[],-1,false];";
 		};
 		class Item14
 		{

@@ -47,8 +47,8 @@ else
 			
 			// Faire relacher l'objet au joueur (si il l'a dans "les mains")
 			R3F_LOG_joueur_deplace_objet = objNull;
-			player playMove "AinvPknlMstpSlayWrflDnon_medic";
-			sleep 2;
+			//player playMove "AinvPknlMstpSlayWrflDnon_medic";
+			//sleep 2;
 			
 			// Attacher à l'arrière du véhicule au ras du sol
 			_objet attachTo [_remorqueur, [

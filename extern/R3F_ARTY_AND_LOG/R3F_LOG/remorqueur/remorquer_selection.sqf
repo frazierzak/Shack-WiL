@@ -29,6 +29,8 @@ else
 		{
 			if (_objet distance _remorqueur <= 30) then
 			{
+				private ["_offsetY","_offsetZ"];
+
 				// On mémorise sur le réseau que le véhicule remorque quelque chose
 				_remorqueur setVariable ["R3F_LOG_remorque", _objet, true];
 				// On mémorise aussi sur le réseau que le canon est attaché en remorque
@@ -44,14 +46,24 @@ else
 				player setDir 270;
 				player setPos (getPos player);
 				
-				player playMove "AinvPknlMstpSlayWrflDnon_medic";
-				sleep 2;
+				//player playMove "AinvPknlMstpSlayWrflDnon_medic";
+				//sleep 2;
+
+				// default offset
+				_offsetY = 3;
+				_offsetZ = 0;
+
+				// fixed wing offset
+				if (_objet isKindOf "Plane") then {
+					_offsetY = 0;
+					_offsetZ = -2;
+				};
 				
 				// Attacher à l'arrière du véhicule au ras du sol
 				_objet attachTo [_remorqueur, [
 					0,
-					(boundingBox _remorqueur select 0 select 1) + (boundingBox _objet select 0 select 1) + 3,
-					(boundingBox _remorqueur select 0 select 2) - (boundingBox _objet select 0 select 2)
+					(boundingBox _remorqueur select 0 select 1) + (boundingBox _objet select 0 select 1) + _offsetY,
+					(boundingBox _remorqueur select 0 select 2) - (boundingBox _objet select 0 select 2) + _offsetZ
 				]];
 				
 				R3F_LOG_objet_selectionne = objNull;
