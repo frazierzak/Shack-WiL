@@ -42,6 +42,9 @@
 	waituntil {format ["%1", typeof player] != 'any'}; 
 	player setpos getmarkerpos "respawn_west";
 
+	// save inital loadout
+	[] call WC_fnc_saveloadout;
+
 	if (format ["%1", wcselectedzone] == "any") then {wcselectedzone = [0,0,0];};
 
 	// By default wc uses R3F revive

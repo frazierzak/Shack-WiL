@@ -14,6 +14,8 @@
 	MenuAction = -1;
 	
 	playsound "paper";
+
+	wcviewDist = viewDistance;
 	
 	ctrlSetText [13001, Format [localize "STR_ACGUI_VM_TXT_VD", wcviewDist]];
 	ctrlSetText [13003, Format [localize "STR_ACGUI_VM_TXT_TG", (50 - wcterraingrid)]];

@@ -37,6 +37,9 @@
 	_refreshtime = 1800; 
 	_crate allowDamage false;
 
+	_crate addaction ["<t color='#0099FF'>Save Loadout</t>","warcontext\WC_fnc_saveloadout.sqf",[],1000,false];
+	_crate addaction ["<t color='#0099FF'>Load Loadout</t>","warcontext\WC_fnc_restoreloadout.sqf",[],1000,false];
+
 	while {true} do {
 		clearweaponcargo 	_crate;
 		clearmagazinecargo 	_crate;	

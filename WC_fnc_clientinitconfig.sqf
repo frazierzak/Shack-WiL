@@ -10,7 +10,6 @@
 
 	// view distance is set by lobby parameter
 	wcviewDist = 2000;
-	wcgarbage = wcviewdistance;
 	setViewDistance wcviewDist;
 
 	// turn off ao marker

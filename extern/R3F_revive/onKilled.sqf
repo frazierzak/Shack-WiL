@@ -47,23 +47,23 @@ R3F_REV_fil_exec_attente_reanimation = [] spawn {
 	_ruckweapons = [];
 	_weapononback = [];
 
-	if!(isnull (unitBackpack R3F_REV_corps_avant_mort)) then {
-		_hasruck = true;
-		_backpack = unitBackpack R3F_REV_corps_avant_mort;
-		_rucktype = typeof _backpack;
-		_ruckmags = getMagazineCargo _backpack;
-		_ruckweapons = getWeaponCargo _backpack;
-	};
-	
-	if(wcwithACE == 1) then {
-		_weapononback = R3F_REV_corps_avant_mort getvariable "ACE_weapononback";
-		if (R3F_REV_corps_avant_mort call ace_sys_ruck_fnc_hasRuck) then {
-			_rucktype = R3F_REV_corps_avant_mort call ACE_Sys_Ruck_fnc_FindRuck;
-			_ruckmags = R3F_REV_corps_avant_mort getvariable "ACE_RuckMagContents";
-			_ruckweapons = R3F_REV_corps_avant_mort getvariable "ACE_RuckWepContents";
-			_hasruckace = true;
-		};
-	};
+//	if!(isnull (unitBackpack R3F_REV_corps_avant_mort)) then {
+//		_hasruck = true;
+//		_backpack = unitBackpack R3F_REV_corps_avant_mort;
+//		_rucktype = typeof _backpack;
+//		_ruckmags = getMagazineCargo _backpack;
+//		_ruckweapons = getWeaponCargo _backpack;
+//	};
+//	
+//	if(wcwithACE == 1) then {
+//		_weapononback = R3F_REV_corps_avant_mort getvariable "ACE_weapononback";
+//		if (R3F_REV_corps_avant_mort call ace_sys_ruck_fnc_hasRuck) then {
+//			_rucktype = R3F_REV_corps_avant_mort call ACE_Sys_Ruck_fnc_FindRuck;
+//			_ruckmags = R3F_REV_corps_avant_mort getvariable "ACE_RuckMagContents";
+//			_ruckweapons = R3F_REV_corps_avant_mort getvariable "ACE_RuckWepContents";
+//			_hasruckace = true;
+//		};
+//	};
 	
 	closeDialog 0;
 	
@@ -118,28 +118,30 @@ R3F_REV_fil_exec_attente_reanimation = [] spawn {
 		// Couché sans arme dans les mains, posture blessé
 		player switchMove "AmovPpneMstpSnonWnonDnon_injured";
 		
-		// Restauration des armes d'avant le décès
-		{player addMagazine _x;} forEach _chargeurs_avant_mort;
-		{player addWeapon _x;} forEach _armes_avant_mort;
-
-		if(wcwithACE == 1) then {
-			if (_hasruckace) then {
-				[player, "ALL"] call ACE_fnc_RemoveGear;
-				if (!isNil "_ruckmags") then {
-					player setvariable ["ACE_RuckMagContents", _ruckmags];
-				};
-				if (!isNil "_ruckweapons") then {
-					player setvariable ["ACE_RuckWepContents", _ruckweapons];
-				};
-			};
-			if (!isNil "_weapononback") then {
-				[player, "WOB"] call ACE_fnc_RemoveGear;
-				player setvariable ["ACE_weapononback", _weapononback];
-			};
-		};
-		if (_hasruck) then {
-			[player, [_rucktype, _ruckweapons, _ruckmags]] call R3F_REV_FNCT_assigner_sacados;
-		};
+		wcgarbage = [] spawn WC_fnc_restoreloadout;
+		
+//		// Restauration des armes d'avant le décès
+//		{player addMagazine _x;} forEach _chargeurs_avant_mort;
+//		{player addWeapon _x;} forEach _armes_avant_mort;
+//
+//		if(wcwithACE == 1) then {
+//			if (_hasruckace) then {
+//				[player, "ALL"] call ACE_fnc_RemoveGear;
+//				if (!isNil "_ruckmags") then {
+//					player setvariable ["ACE_RuckMagContents", _ruckmags];
+//				};
+//				if (!isNil "_ruckweapons") then {
+//					player setvariable ["ACE_RuckWepContents", _ruckweapons];
+//				};
+//			};
+//			if (!isNil "_weapononback") then {
+//				[player, "WOB"] call ACE_fnc_RemoveGear;
+//				player setvariable ["ACE_weapononback", _weapononback];
+//			};
+//		};
+//		if (_hasruck) then {
+//			[player, [_rucktype, _ruckweapons, _ruckmags]] call R3F_REV_FNCT_assigner_sacados;
+//		};
 
 		// Marqueur sur la position du joueur, si l'option est activée
 		if (R3F_REV_CFG_afficher_marqueur) then {
@@ -266,31 +268,33 @@ R3F_REV_fil_exec_attente_reanimation = [] spawn {
 		
 		R3F_REV_nb_reanimations = R3F_REV_CFG_nb_reanimations;
 			
-		// Restauration des armes d'avant le décès
-		if!(_hasruck) then { removebackpack player; };
-		removeAllWeapons player;
-		removeAllItems player;
+		wcgarbage = [] spawn WC_fnc_restoreloadout;
 
-		{player addMagazine _x;} forEach _chargeurs_avant_mort;
-		{player addWeapon _x;} forEach _armes_avant_mort;
-		player selectWeapon (primaryWeapon player);
-
-		if(wcwithACE == 1) then {
-			if (_hasruck) then {
-				removeBackpack player;
-				player addweapon _rucktype;
-				if (!isNil "_ruckmags") then {
-					player setvariable ["ACE_RuckMagContents", _ruckmags];
-				};
-				if (!isNil "_ruckweapons") then {
-					player setvariable ["ACE_RuckWepContents", _ruckweapons];
-				};
-			};
-		} else {
-			if !(isNil "R3F_REV_FNCT_assigner_sacados") then {
-				[player, _sacados_avant_mort] call R3F_REV_FNCT_assigner_sacados;
-			};
-		};
+//		// Restauration des armes d'avant le décès
+//		if!(_hasruck) then { removebackpack player; };
+//		removeAllWeapons player;
+//		removeAllItems player;
+//
+//		{player addMagazine _x;} forEach _chargeurs_avant_mort;
+//		{player addWeapon _x;} forEach _armes_avant_mort;
+//		player selectWeapon (primaryWeapon player);
+//
+//		if(wcwithACE == 1) then {
+//			if (_hasruck) then {
+//				removeBackpack player;
+//				player addweapon _rucktype;
+//				if (!isNil "_ruckmags") then {
+//					player setvariable ["ACE_RuckMagContents", _ruckmags];
+//				};
+//				if (!isNil "_ruckweapons") then {
+//					player setvariable ["ACE_RuckWepContents", _ruckweapons];
+//				};
+//			};
+//		} else {
+//			if !(isNil "R3F_REV_FNCT_assigner_sacados") then {
+//				[player, _sacados_avant_mort] call R3F_REV_FNCT_assigner_sacados;
+//			};
+//		};
 
 		if (R3F_REV_CFG_afficher_marqueur) then {
 			player setvariable ["deadmarker", false, true];
