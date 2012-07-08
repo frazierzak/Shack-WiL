@@ -29,13 +29,15 @@
 	wcruckmags = [];
 	wcruckweapons = [];
 	wcweapononback = [];
+	wcbackpack = [];
+	wcrucktype = [];
 
 	if!(isnull (unitBackpack player)) then {
 		wchasruck = true;
 		wcbackpack = unitBackpack player;
-		wcrucktype = typeof _backpack;
-		wcruckmags = getMagazineCargo _backpack;
-		wcruckweapons = getWeaponCargo _backpack;
+		wcrucktype = typeof wcbackpack;
+		wcruckmags = getMagazineCargo wcbackpack;
+		wcruckweapons = getWeaponCargo wcbackpack;
 	};
 
 	

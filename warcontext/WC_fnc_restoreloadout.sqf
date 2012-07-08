@@ -47,6 +47,14 @@
 	};
 	if (wchasruck) then {
 		[player, [wcrucktype, wcruckweapons, wcruckmags]] call R3F_REV_FNCT_assigner_sacados;
+		//player addBackpack wcrucktype; clearWeaponCargo (unitBackpack player); clearMagazineCargo (unitBackpack player);
+		//
+		//for "_i" from 0 to (count (wcruckmags select 0) - 1) do {
+		//	(unitBackpack player) addMagazineCargo [(wcruckmags select 0) select _i,(wcruckmags select 1) select _i];
+		//};
+		//for "_i" from 0 to (count (wcruckweapons select 0) - 1) do {
+		//	(unitBackpack player) addWeaponCargo [(wcruckweapons select 0) select _i,(wcruckweapons select 1) select _i];
+		//};
 	};
 
 	player selectWeapon (primaryWeapon player);
