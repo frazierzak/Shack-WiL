@@ -54,7 +54,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=13;
+		items=15;
 		class Item0
 		{
 			side="LOGIC";
@@ -745,10 +745,71 @@ class Mission
 				};
 			};
 		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8243.9902,4.06287,7455.1611};
+					azimut=-93.447708;
+					id=92;
+					side="WEST";
+					vehicle="US_Soldier_Officer_EP1";
+					leader=1;
+					skill=0.60000002;
+					text="A1";
+				};
+			};
+			class Waypoints
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8243.6914,4.06287,7455.1187};
+					expActiv="A1 playmove ""ActsPercMstpSnonWpstDnon_SceneBardakRifle01""";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={8243.4717,4.06287,7455.0938};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8238.8994,4.06287,7452.7012};
+					azimut=-313.71167;
+					id=93;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					skill=0.60000002;
+					text="prisoner";
+					init="this allowfleeing 0; removeAllWeapons this; this setUnitPos ""Up""; dostop this; this allowDamage false; this setcaptive true;";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=47;
+		items=52;
 		class Item0
 		{
 			position[]={8312.0557,4.0640292,7498.5122};
@@ -1235,6 +1296,51 @@ class Mission
 			vehicle="RHIB";
 			skill=0.60000002;
 		};
+		class Item47
+		{
+			position[]={8240.1543,4.06287,7454.2031};
+			azimut=-125.87937;
+			id=94;
+			side="EMPTY";
+			vehicle="Land_CamoNet_NATO";
+			skill=0.60000002;
+		};
+		class Item48
+		{
+			position[]={8236.0137,4.06287,7456.4321};
+			azimut=-52.575157;
+			id=95;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			skill=0.60000002;
+		};
+		class Item49
+		{
+			position[]={8240.5029,4.06287,7458.9067};
+			azimut=-5.7587633;
+			id=96;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			skill=0.60000002;
+		};
+		class Item50
+		{
+			position[]={8241.8506,4.06287,7450.4912};
+			azimut=-24.096109;
+			id=97;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			skill=0.60000002;
+		};
+		class Item51
+		{
+			position[]={8237.001,4.06287,7452.0239};
+			azimut=48.516415;
+			id=98;
+			side="EMPTY";
+			vehicle="Fort_RazorWire";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
@@ -1282,19 +1388,12 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={8330.3906,4.0685101,7484.6108};
-			name="jail";
-			type="Empty";
-			angle=-195.23663;
-		};
-		class Item6
-		{
 			position[]={8444.5967,4.4874926,7407.1694};
 			name="mortuary";
 			type="Empty";
 			angle=-125.36463;
 		};
-		class Item7
+		class Item6
 		{
 			position[]={8302.1885,4.06287,7485.2847};
 			name="section4";
@@ -1302,7 +1401,7 @@ class Mission
 			type="Empty";
 			angle=-105.6271;
 		};
-		class Item8
+		class Item7
 		{
 			position[]={8325.667,4.0685101,7503.605};
 			name="hospital";
@@ -1312,7 +1411,7 @@ class Mission
 			b=0.5;
 			angle=-195.93417;
 		};
-		class Item9
+		class Item8
 		{
 			position[]={8313.75,4.0649853,7515.5073};
 			name="repair";
@@ -1321,7 +1420,7 @@ class Mission
 			colorName="ColorBlue";
 			angle=-203.15054;
 		};
-		class Item10
+		class Item9
 		{
 			position[]={8305.4102,4.06287,7502.9312};
 			name="recruit1";
@@ -1329,7 +1428,7 @@ class Mission
 			type="Empty";
 			angle=66.435532;
 		};
-		class Item11
+		class Item10
 		{
 			position[]={8305.6152,4.06287,7496.6323};
 			name="clothes";
@@ -1338,7 +1437,7 @@ class Mission
 			colorName="ColorBlue";
 			angle=-103.80979;
 		};
-		class Item12
+		class Item11
 		{
 			position[]={8313.2686,4.0647135,7495.3569};
 			name="autoloadcrate";
@@ -1346,7 +1445,7 @@ class Mission
 			type="Empty";
 			angle=-658.80994;
 		};
-		class Item13
+		class Item12
 		{
 			position[]={8301.21,4.06287,7463.9092};
 			name="Artillery";
@@ -1355,7 +1454,7 @@ class Mission
 			colorName="ColorBlue";
 			angle=-202.34627;
 		};
-		class Item14
+		class Item13
 		{
 			position[]={8222.541,5.110363,7484.4375};
 			name="wall_3";
@@ -1365,7 +1464,7 @@ class Mission
 			b=45;
 			angle=-270.28635;
 		};
-		class Item15
+		class Item14
 		{
 			position[]={8313.4893,4.0648379,7513.3257};
 			name="convoystart";
@@ -1373,7 +1472,7 @@ class Mission
 			type="Empty";
 			angle=-196.06454;
 		};
-		class Item16
+		class Item15
 		{
 			position[]={8294.4102,4.3865261,7574.96};
 			name="bluefor";
@@ -1386,7 +1485,7 @@ class Mission
 			b=300;
 			angle=-196.06454;
 		};
-		class Item17
+		class Item16
 		{
 			position[]={8359.3076,3.8919842,7549.3354};
 			name="repair_1";
@@ -1395,7 +1494,7 @@ class Mission
 			colorName="ColorBlue";
 			angle=-203.151;
 		};
-		class Item18
+		class Item17
 		{
 			position[]={8358.833,4.0685101,7475.7793};
 			name="repair_2";
@@ -1404,11 +1503,18 @@ class Mission
 			colorName="ColorBlue";
 			angle=-203.15054;
 		};
-		class Item19
+		class Item18
 		{
 			position[]={0,0.66530126,0};
 			name="initpos";
 			type="Empty";
+		};
+		class Item19
+		{
+			position[]={8239.374,4.06287,7454.271};
+			name="jail";
+			type="Empty";
+			angle=0.82791501;
 		};
 	};
 	class Sensors
