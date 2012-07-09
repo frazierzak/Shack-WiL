@@ -62,7 +62,8 @@
 	wcrespawnmarker setmarkersize [0,0];
 
 	// arcade == 1
-	if(wckindofgame == 1) then {
+	//if(wckindofgame == 1) then {
+	if(false) then {
 		wcgarbage = ["Hospital", getmarkerpos "hospital"] spawn BIS_fnc_3dcredits;
 		wcgarbage = ["Weapons", getmarkerpos "crate1"] spawn BIS_fnc_3dcredits;
 		if(wcautoloadweapons == 1) then {
