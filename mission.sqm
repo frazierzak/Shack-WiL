@@ -61,7 +61,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=15;
+		items=8;
 		class Item0
 		{
 			side="LOGIC";
@@ -168,502 +168,6 @@ class Mission
 		};
 		class Item4
 		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8318.917,4.0678992,7498.8506};
-					azimut=-449.80753;
-					special="CARGO";
-					id=18;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Foxtrot""];";
-				};
-				class Item1
-				{
-					position[]={8318.7598,4.0678105,7498.2881};
-					azimut=-441.59045;
-					special="CARGO";
-					id=19;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Foxtrot""];";
-				};
-				class Item2
-				{
-					position[]={8318.9961,4.0679436,7499.3599};
-					azimut=-442.59351;
-					special="CARGO";
-					id=20;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Foxtrot""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8319.6016,4.0682855,7499.4155};
-					azimut=-447.25949;
-					special="CARGO";
-					id=21;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Foxtrot""];";
-				};
-				class Item4
-				{
-					position[]={8319.4668,4.0682096,7498.8906};
-					azimut=-453.33853;
-					special="CARGO";
-					id=22;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Foxtrot""];";
-				};
-			};
-		};
-		class Item5
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8316.9795,4.0668063,7498.8896};
-					azimut=-449.80753;
-					special="CARGO";
-					id=23;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Echo""];";
-				};
-				class Item1
-				{
-					position[]={8316.8193,4.0667162,7498.333};
-					azimut=-441.59045;
-					special="CARGO";
-					id=24;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Echo""];";
-				};
-				class Item2
-				{
-					position[]={8317.0654,4.066855,7499.3945};
-					azimut=-442.59351;
-					special="CARGO";
-					id=25;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Echo""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8317.6543,4.0671873,7499.4473};
-					azimut=-447.25949;
-					special="CARGO";
-					id=26;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Echo""];";
-				};
-				class Item4
-				{
-					position[]={8317.5234,4.0671134,7498.9194};
-					azimut=-453.33853;
-					special="CARGO";
-					id=27;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Echo""];";
-				};
-			};
-		};
-		class Item6
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8317.2559,4.0669622,7501.5034};
-					azimut=-449.80753;
-					special="CARGO";
-					id=28;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Hotel""];";
-				};
-				class Item1
-				{
-					position[]={8317.0977,4.0668731,7500.9429};
-					azimut=-441.59045;
-					special="CARGO";
-					id=29;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Hotel""];";
-				};
-				class Item2
-				{
-					position[]={8317.3418,4.0670109,7502.0103};
-					azimut=-442.59351;
-					special="CARGO";
-					id=30;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Hotel""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8317.9424,4.0673494,7502.0713};
-					azimut=-447.25949;
-					special="CARGO";
-					id=31;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Hotel""];";
-				};
-				class Item4
-				{
-					position[]={8317.7998,4.0672688,7501.543};
-					azimut=-453.33899;
-					special="CARGO";
-					id=32;
-					side="WEST";
-					vehicle="bink_usmc_dmr";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Hotel""];";
-					description="Sniper";
-				};
-			};
-		};
-		class Item7
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8319.2471,4.0680857,7501.4834};
-					azimut=-449.80753;
-					special="CARGO";
-					id=33;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Golf""];";
-				};
-				class Item1
-				{
-					position[]={8319.0908,4.0679975,7500.9253};
-					azimut=-441.59045;
-					special="CARGO";
-					id=34;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Golf""];";
-				};
-				class Item2
-				{
-					position[]={8319.3359,4.0681357,7501.9927};
-					azimut=-442.59351;
-					special="CARGO";
-					id=35;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Golf""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8319.9365,4.0684743,7502.0532};
-					azimut=-447.25949;
-					special="CARGO";
-					id=36;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Golf""];";
-				};
-				class Item4
-				{
-					position[]={8319.7939,4.0683942,7501.5239};
-					azimut=-453.33899;
-					special="CARGO";
-					id=37;
-					side="WEST";
-					vehicle="bink_usmc_dmr";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Golf""];";
-					description="Sniper";
-				};
-			};
-		};
-		class Item8
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8316.583,4.0665832,7496.6523};
-					azimut=-449.80753;
-					special="CARGO";
-					id=38;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Bravo""];";
-				};
-				class Item1
-				{
-					position[]={8316.4199,4.0664911,7496.0938};
-					azimut=-441.59;
-					special="CARGO";
-					id=39;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Bravo""];";
-				};
-				class Item2
-				{
-					position[]={8316.7021,4.0666499,7497.2793};
-					azimut=-442.59399;
-					special="CARGO";
-					id=40;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Bravo""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8317.2715,4.0669713,7497.2173};
-					azimut=-447.25949;
-					special="CARGO";
-					id=41;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Bravo""];";
-				};
-				class Item4
-				{
-					position[]={8317.1279,4.0668902,7496.6973};
-					azimut=-453.33853;
-					special="CARGO";
-					id=42;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Bravo""];";
-				};
-			};
-		};
-		class Item9
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8318.4053,4.0676107,7494.1626};
-					azimut=-449.80801;
-					special="CARGO";
-					id=43;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAYER COMMANDER";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Alpha""];";
-					description="Fireteam Leader";
-				};
-				class Item1
-				{
-					position[]={8318.251,4.067524,7493.6123};
-					azimut=-441.59;
-					special="CARGO";
-					id=44;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Alpha""];";
-					description="Corpsman";
-				};
-				class Item2
-				{
-					position[]={8318.4971,4.0676627,7494.6709};
-					azimut=-442.59399;
-					special="CARGO";
-					id=45;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Alpha""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8319.0908,4.0679975,7494.7363};
-					azimut=-447.259;
-					special="CARGO";
-					id=46;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Alpha""];";
-					description="Rifelman";
-				};
-				class Item4
-				{
-					position[]={8318.9551,4.0679207,7494.2134};
-					azimut=-453.33899;
-					special="CARGO";
-					id=47;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Alpha""];";
-					description="Rifleman";
-				};
-			};
-		};
-		class Item10
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8318.7051,4.06778,7496.3091};
-					azimut=-449.80753;
-					special="CARGO";
-					id=48;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Charly""];";
-				};
-				class Item1
-				{
-					position[]={8318.5303,4.0676813,7495.7539};
-					azimut=-441.59045;
-					special="CARGO";
-					id=49;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Charly""];";
-				};
-				class Item2
-				{
-					position[]={8318.7881,4.0678267,7496.8198};
-					azimut=-442.59351;
-					special="CARGO";
-					id=50;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Charly""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8319.3945,4.0681686,7496.8848};
-					azimut=-447.25949;
-					special="CARGO";
-					id=51;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Charly""];";
-				};
-				class Item4
-				{
-					position[]={8319.2354,4.0680785,7496.3525};
-					azimut=-453.33853;
-					special="CARGO";
-					id=52;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Charly""];";
-				};
-			};
-		};
-		class Item11
-		{
 			side="EAST";
 			class Vehicles
 			{
@@ -682,77 +186,7 @@ class Mission
 				};
 			};
 		};
-		class Item12
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=5;
-				class Item0
-				{
-					position[]={8316.207,4.066371,7494.6602};
-					azimut=-449.80801;
-					special="CARGO";
-					id=56;
-					side="WEST";
-					vehicle="bink_usmc_tl";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.60000002;
-					init="this setGroupid [""Juliet""];";
-				};
-				class Item1
-				{
-					position[]={8316.0469,4.0662804,7494.1021};
-					azimut=-441.59045;
-					special="CARGO";
-					id=57;
-					side="WEST";
-					vehicle="bink_usmc_corpsman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Juliet""];";
-				};
-				class Item2
-				{
-					position[]={8316.2773,4.0664105,7495.1738};
-					azimut=-442.59351;
-					special="CARGO";
-					id=58;
-					side="WEST";
-					vehicle="bink_usmc_eng";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Juliet""];";
-					description="Engineer";
-				};
-				class Item3
-				{
-					position[]={8316.8779,4.0667491,7495.2261};
-					azimut=-447.25949;
-					special="CARGO";
-					id=59;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Juliet""];";
-				};
-				class Item4
-				{
-					position[]={8316.7637,4.0666847,7494.52};
-					azimut=-453.33853;
-					special="CARGO";
-					id=60;
-					side="WEST";
-					vehicle="bink_usmc_rifleman";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="this setGroupid [""Juliet""];";
-				};
-			};
-		};
-		class Item13
+		class Item5
 		{
 			side="WEST";
 			class Vehicles
@@ -794,7 +228,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item6
 		{
 			side="EAST";
 			class Vehicles
@@ -811,6 +245,509 @@ class Mission
 					skill=0.60000002;
 					text="prisoner";
 					init="this allowfleeing 0; removeAllWeapons this; this setUnitPos ""Up""; dostop this; this allowDamage false; this setcaptive true;";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=40;
+				class Item0
+				{
+					position[]={8318.4053,4.0676107,7494.1626};
+					azimut=-449.80801;
+					special="CARGO";
+					id=43;
+					side="WEST";
+					vehicle="bink_usmc_tl";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					init="this setGroupid [""Alpha""];";
+					description="Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={8318.4971,4.0676627,7494.6709};
+					azimut=-442.59399;
+					special="CARGO";
+					id=45;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Alpha""];";
+					description="Engineer";
+				};
+				class Item2
+				{
+					position[]={8318.9551,4.0679207,7494.2134};
+					azimut=-453.33899;
+					special="CARGO";
+					id=47;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Alpha""];";
+					description="Rifleman";
+				};
+				class Item3
+				{
+					position[]={8319.0908,4.0679975,7494.7363};
+					azimut=-447.259;
+					special="CARGO";
+					id=46;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Alpha""];";
+					description="Rifelman";
+				};
+				class Item4
+				{
+					position[]={8318.251,4.067524,7493.6123};
+					azimut=-441.59;
+					special="CARGO";
+					id=44;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Alpha""];";
+					description="Corpsman";
+				};
+				class Item5
+				{
+					position[]={8316.0469,4.0662804,7494.1021};
+					azimut=-441.59045;
+					special="CARGO";
+					id=57;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Juliet""];";
+				};
+				class Item6
+				{
+					position[]={8316.7637,4.0666847,7494.52};
+					azimut=-453.33853;
+					special="CARGO";
+					id=60;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Juliet""];";
+				};
+				class Item7
+				{
+					position[]={8316.207,4.066371,7494.6602};
+					azimut=-449.80801;
+					special="CARGO";
+					id=56;
+					side="WEST";
+					vehicle="bink_usmc_scout_l";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Juliet""];";
+				};
+				class Item8
+				{
+					position[]={8316.2773,4.0664105,7495.1738};
+					azimut=-442.59351;
+					special="CARGO";
+					id=58;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Juliet""];";
+					description="Engineer";
+				};
+				class Item9
+				{
+					position[]={8316.8779,4.0667491,7495.2261};
+					azimut=-447.25949;
+					special="CARGO";
+					id=59;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Juliet""];";
+				};
+				class Item10
+				{
+					position[]={8318.5303,4.0676813,7495.7539};
+					azimut=-441.59045;
+					special="CARGO";
+					id=49;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Charly""];";
+				};
+				class Item11
+				{
+					position[]={8318.7051,4.06778,7496.3091};
+					azimut=-449.80801;
+					special="CARGO";
+					id=48;
+					side="WEST";
+					vehicle="bink_usmc_scout_l";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Charly""];";
+				};
+				class Item12
+				{
+					position[]={8319.2354,4.0680785,7496.3525};
+					azimut=-453.33853;
+					special="CARGO";
+					id=52;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Charly""];";
+				};
+				class Item13
+				{
+					position[]={8318.7881,4.0678267,7496.8198};
+					azimut=-442.59351;
+					special="CARGO";
+					id=50;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Charly""];";
+					description="Engineer";
+				};
+				class Item14
+				{
+					position[]={8319.3945,4.0681686,7496.8848};
+					azimut=-447.25949;
+					special="CARGO";
+					id=51;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Charly""];";
+				};
+				class Item15
+				{
+					position[]={8316.4199,4.0664911,7496.0938};
+					azimut=-441.59;
+					special="CARGO";
+					id=39;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Bravo""];";
+				};
+				class Item16
+				{
+					position[]={8316.583,4.0665832,7496.6523};
+					azimut=-449.80801;
+					special="CARGO";
+					id=38;
+					side="WEST";
+					vehicle="bink_usmc_scout_l";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Bravo""];";
+				};
+				class Item17
+				{
+					position[]={8317.1279,4.0668902,7496.6973};
+					azimut=-453.33853;
+					special="CARGO";
+					id=42;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Bravo""];";
+				};
+				class Item18
+				{
+					position[]={8317.2715,4.0669713,7497.2173};
+					azimut=-447.25949;
+					special="CARGO";
+					id=41;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Bravo""];";
+				};
+				class Item19
+				{
+					position[]={8316.7021,4.0666499,7497.2793};
+					azimut=-442.59399;
+					special="CARGO";
+					id=40;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Bravo""];";
+					description="Engineer";
+				};
+				class Item20
+				{
+					position[]={8316.8193,4.0667162,7498.333};
+					azimut=-441.59045;
+					special="CARGO";
+					id=24;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Echo""];";
+				};
+				class Item21
+				{
+					position[]={8316.9795,4.0668063,7498.8896};
+					azimut=-449.80801;
+					special="CARGO";
+					id=23;
+					side="WEST";
+					vehicle="bink_usmc_scout_l";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Echo""];";
+				};
+				class Item22
+				{
+					position[]={8317.5234,4.0671134,7498.9194};
+					azimut=-453.33853;
+					special="CARGO";
+					id=27;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Echo""];";
+				};
+				class Item23
+				{
+					position[]={8317.0654,4.066855,7499.3945};
+					azimut=-442.59351;
+					special="CARGO";
+					id=25;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Echo""];";
+					description="Engineer";
+				};
+				class Item24
+				{
+					position[]={8317.6543,4.0671873,7499.4473};
+					azimut=-447.25949;
+					special="CARGO";
+					id=26;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Echo""];";
+				};
+				class Item25
+				{
+					position[]={8318.7598,4.0678105,7498.2881};
+					azimut=-441.59045;
+					special="CARGO";
+					id=19;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Foxtrot""];";
+				};
+				class Item26
+				{
+					position[]={8318.917,4.0678992,7498.8506};
+					azimut=-449.80801;
+					special="CARGO";
+					id=18;
+					side="WEST";
+					vehicle="bink_usmc_scout_l";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Foxtrot""];";
+				};
+				class Item27
+				{
+					position[]={8319.4668,4.0682096,7498.8906};
+					azimut=-453.33853;
+					special="CARGO";
+					id=22;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Foxtrot""];";
+				};
+				class Item28
+				{
+					position[]={8318.9961,4.0679436,7499.3599};
+					azimut=-442.59351;
+					special="CARGO";
+					id=20;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Foxtrot""];";
+					description="Engineer";
+				};
+				class Item29
+				{
+					position[]={8319.6016,4.0682855,7499.4155};
+					azimut=-447.25949;
+					special="CARGO";
+					id=21;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Foxtrot""];";
+				};
+				class Item30
+				{
+					position[]={8317.0977,4.0668731,7500.9429};
+					azimut=-441.59045;
+					special="CARGO";
+					id=29;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Hotel""];";
+				};
+				class Item31
+				{
+					position[]={8317.2559,4.0669622,7501.5034};
+					azimut=-449.80801;
+					special="CARGO";
+					id=28;
+					side="WEST";
+					vehicle="bink_usmc_scout_l";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Hotel""];";
+				};
+				class Item32
+				{
+					position[]={8317.7998,4.0672688,7501.543};
+					azimut=-453.33899;
+					special="CARGO";
+					id=32;
+					side="WEST";
+					vehicle="bink_usmc_dmr";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Hotel""];";
+					description="Sniper";
+				};
+				class Item33
+				{
+					position[]={8317.3418,4.0670109,7502.0103};
+					azimut=-442.59351;
+					special="CARGO";
+					id=30;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Hotel""];";
+					description="Engineer";
+				};
+				class Item34
+				{
+					position[]={8317.9424,4.0673494,7502.0713};
+					azimut=-447.25949;
+					special="CARGO";
+					id=31;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Hotel""];";
+				};
+				class Item35
+				{
+					position[]={8319.0908,4.0679975,7500.9253};
+					azimut=-441.59045;
+					special="CARGO";
+					id=34;
+					side="WEST";
+					vehicle="bink_usmc_corpsman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Golf""];";
+				};
+				class Item36
+				{
+					position[]={8319.2471,4.0680857,7501.4834};
+					azimut=-449.80801;
+					special="CARGO";
+					id=33;
+					side="WEST";
+					vehicle="bink_usmc_scout_l";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Golf""];";
+				};
+				class Item37
+				{
+					position[]={8319.7939,4.0683942,7501.5239};
+					azimut=-453.33899;
+					special="CARGO";
+					id=37;
+					side="WEST";
+					vehicle="bink_usmc_dmr";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Golf""];";
+					description="Sniper";
+				};
+				class Item38
+				{
+					position[]={8319.3359,4.0681357,7501.9927};
+					azimut=-442.59351;
+					special="CARGO";
+					id=35;
+					side="WEST";
+					vehicle="bink_usmc_eng";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Golf""];";
+					description="Engineer";
+				};
+				class Item39
+				{
+					position[]={8319.9365,4.0684743,7502.0532};
+					azimut=-447.25949;
+					special="CARGO";
+					id=36;
+					side="WEST";
+					vehicle="bink_usmc_rifleman";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this setGroupid [""Golf""];";
 				};
 			};
 		};
@@ -1075,7 +1012,7 @@ class Mission
 		};
 		class Item23
 		{
-			position[]={8317.6885,4.0672064,7497.7031};
+			position[]={8318.1064,4.0674424,7497.7412};
 			azimut=-197.23305;
 			id=68;
 			side="EMPTY";
